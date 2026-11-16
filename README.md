@@ -1,2 +1,10 @@
-# game-design-skill
-Design standards for Qiu’s web board games
+# Game Design Skill
+
+Qiu 的好友房网页游戏家族的设计规范、品味判例和施工流程。这里放共同规范，不放游戏代码、资产或共享组件包；各游戏保留自己的设计文档和 token 实现。当前为提交 Qiu 审阅的版本，确认后才成为家族现行规范。
+
+- 让执行者先加载 [SKILL.md](SKILL.md)，只打开与任务相关的 reference。
+- 从 [DESIGN 模板](templates/DESIGN.template.md) 和 [从零到上线清单](templates/new-game-checklist.md) 开始接入新游戏，先明确独立视觉身份，再复用交互骨架。
+- 到[参考实现索引](examples/README.md)查看胡闹运动会、卡坦岛、巫师牌分别值得看什么。巫师牌的新首页是应用范式的案例，不是范式来源。
+- [反向符合度报告](CONFORMANCE.md)记录当前三个实现和目标规范之间的差距；报告不修改任何游戏代码。
+
+规范按 2026-11-16《设计Skill仓库指令》编写，并交叉核对《UI改造指令-给GPT》、回退与改版 v2/v3 和三个游戏的当前公开源码。资料冲突和未获确认的版本见对应章节，不把已上线写作已验收。
